@@ -6,13 +6,14 @@
 }
 body{
     font-family: sans-serif;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/bg.jpeg);
+    background-color: gainsboro;
     background-size: cover;
     background-position:center;
+    
    
 }
 .nav{
-    background-color: rgb(0,100,0);
+    background-color: gray;
     text-align: center;
     
 }
@@ -32,7 +33,7 @@ body{
     
 }
  .nav ul li:hover{
-    background-color: red;
+    background-color:silver;
     border-radius: 3px;
 
 }
@@ -42,7 +43,7 @@ body{
 .nav ul li:hover .nav2{
     display: block;
     position: absolute;
-    background: rgb(0,100,0);
+    background: gray;
     margin-top: 15px;
     margin-left: -15px;
 }
@@ -62,5 +63,5 @@ body{
     border-bottom: none;
 }
 .nav ul li:hover .nav2 ul li a:hover{
-    color: red;
+    color:silver;
 }
